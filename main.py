@@ -1,7 +1,7 @@
+from player import *
 from spellcard import *
 
 ELEMENTS = ["f", "a", "w", "e"]
 
-spells = []
-for i in range(5):
-    spells.append(SpellCard())
+players = [Player(), Player()]
+print(players)

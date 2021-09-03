@@ -1,4 +1,4 @@
-class SpellCard:
+class Spellcard:
     def __init__(self):
         self.contents = {"f": 0, "a": 0, "w": 0, "e": 0}
 

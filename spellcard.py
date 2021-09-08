@@ -8,8 +8,8 @@ class Spellcard:
                 return False
         return True
 
-    def add_element(self, element):
-        self.contents[element] += 1
+    def add_element(self, element, increase):
+        self.contents[element] += increase
 
     def print_card(self):
         if self.is_empty():

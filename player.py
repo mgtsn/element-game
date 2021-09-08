@@ -3,6 +3,7 @@ from spellcard import *
 
 class Player:
     NUM_SPELLS = 4
+    STARTING_LIFE = 20
 
     def make_spells(self):
         spells = []
@@ -12,4 +13,5 @@ class Player:
 
     def __init__(self):
         self.num = 0
+        self.life = self.STARTING_LIFE
         self.spells = self.make_spells()

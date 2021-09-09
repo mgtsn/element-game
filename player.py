@@ -2,7 +2,7 @@ from spellcard import *
 
 
 class Player:
-    NUM_SPELLS = 4
+    NUM_SPELLS = 2
     STARTING_LIFE = 20
 
     def make_spells(self):

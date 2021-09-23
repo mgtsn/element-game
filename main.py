@@ -15,6 +15,4 @@ frame.grid(column=0, row=0)
 
 players = [Player(frame, 0, 0), Player(frame, 0, 1)]
 
-print(players[0].spells[0].contents)
-
 root.mainloop()
